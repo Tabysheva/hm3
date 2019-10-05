@@ -7,18 +7,22 @@ public class Main {
         names[0] = "Ulitka";
         names[1] = "Kasya";
         names[2] = "Kanya";
-        switch (names[0]) {
+        for (int i = 0; i < 3; i++) {
+
+        switch (names[i]) {
             case "Ulitka":
-                System.out.println("Доброе утро" + "!");
+                System.out.println( names [i]+", Доброе утро " + "!" );
                 break;
             case "Kasya":
-                System.out.println("Добрый день" + "!");
+                System.out.println(names [i]+ ", Добрый день " + "!" );
                 break;
             case "Kanya":
-                System.out.println("Добрый вечер" + "!");
+                System.out.println( names [i] + ", Добрый вечер" + "!");
                 break;
         }
-        System.out.println(names[0]);
+
+        }
+
 
 
       /*  String[] names = {"Ulitka", "Kasya", "Kanya"};
